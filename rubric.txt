@@ -1,0 +1,22 @@
+Checked out by David Buckley, 11/9/2022
+
+Rubric turned in on time (5 points)
+
+Languages/Frameworks used (30 points)
+10 - React.js frontend
+10 - Express backend
+10 - MongoDB
+
+Functionality (35 points)
+10 - User can register, log in, and log out
+5 - User can track their daily water intake
+5 - User can track their mood
+5 - User can journal about their day
+10 - User can see a summary of their past habits/journals (habits will be averaged over all entries in the current month, previous journal entry will be displayed)
+
+Best Practices (5 points)
+
+Creative Portion (20 points)
+
+Styling (5 points)
+5 - animations

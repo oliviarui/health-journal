@@ -1,0 +1,31 @@
+{
+  "name": "creativeproject-489878-498173",
+  "version": "1.0.0",
+  "description": "Elle Su 498173 @ellesu\r Olivia Rui 489878 @oliviarui",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://oliviarui@github.com/cse330-fall-2022/creativeproject-489878-498173.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cse330-fall-2022/creativeproject-489878-498173/issues"
+  },
+  "homepage": "https://github.com/cse330-fall-2022/creativeproject-489878-498173#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

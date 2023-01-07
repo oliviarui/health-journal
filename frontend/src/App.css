@@ -1,0 +1,487 @@
+/* styling for the App component */
+body{
+    background-color: #8B9781;
+}
+body .log{
+    background-color: #94725B;
+}
+body .new{
+    justify-content: center;
+}
+textarea{
+    background-color: transparent;
+    border: none;
+    width: 78%;
+    box-sizing: content-box;
+    height: 100%;
+    padding: 10px;
+    font-size: 20px;
+    resize:none;
+}
+.lines{
+    margin-left: 120px;
+    background-color: #D9D9D9;
+    display: flex;
+    position: absolute center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 80%;
+    padding: 30px;
+}
+
+.apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.new{
+    background-color: #70868E;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+h1{
+    font-weight: 700;
+    font-size: 28px;
+    position: relative center;
+}
+h2{
+    font-weight:500;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#login{
+    background-color: #94725B;
+}
+#home{
+    background-color: #8B9781;
+}
+#new-jurnl{
+    background-color: 70868E;
+}
+
+
+/* register css */
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+.register-container{
+    background: #ECEBE6;
+    padding:30px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    width: 400px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin: 2%;
+    margin-bottom: 100px;
+
+}
+.user-pass{
+    justify-content: center;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"].form-control{
+    font-size: 16px;
+    outline:none;
+    border-radius: 10px;
+    border:none;
+    padding: 4px;
+    margin-bottom: 3px;
+    transition: all 0.3 ease;
+}
+input[type="password"].form-control{
+    font-size: 16px;
+    outline:none;
+    border-radius: 10px;
+    border: none;
+    padding: 4px;
+    margin-bottom: 10px;
+    transition: all 0.3 ease;
+}
+input[type="button"].register{
+    outline: none;
+    background:#8B9781;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    font-size:16px;
+    width: 150px;
+}
+input[type="button"].register:hover{
+    background:#5e6a54;
+    cursor:pointer;
+}
+
+/* New jurnl */
+.prompt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.back{
+    position: relative left;
+    transform: scale(.7);
+}
+.jurnl-logo{
+    position: relative center;
+
+    margin-left: 45%;
+}
+.reg-logo{
+    position: relative center;
+    transform: scale(1.3);
+    margin-top: 10%;
+    justify-content: center;
+}
+.logo-login{
+    position: relative center;
+    height: 18x;
+    width: 165px;
+}
+
+
+
+.back-button{
+    /* Vector 8 */
+
+position: absolute;
+width: 99px;
+height: 82px;
+left: 51px;
+top: 34px;
+
+background: #D9D9D9;
+
+
+}
+
+.new-jurnl{
+    /* Group 2 */
+
+position: absolute;
+width: 101.61px;
+height: 101.61px;
+left: 1324.6px;
+top: 52.47px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 101.61px;
+height: 101.61px;
+left: 1324.6px;
+top: 52.47px;
+
+background: #94725B;
+border-radius: 15px;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 12.6px;
+height: 12.6px;
+left: 1337.19px;
+top: 65.06px;
+
+background: #8B9781;
+
+
+/* Ellipse 4 */
+
+position: absolute;
+width: 12.6px;
+height: 12.6px;
+left: 1337.19px;
+top: 96.97px;
+
+background: #8B9781;
+
+
+/* Ellipse 5 */
+
+position: absolute;
+width: 12.6px;
+height: 12.6px;
+left: 1337.19px;
+top: 128.88px;
+
+background: #8B9781;
+
+
+/* Line 5 */
+
+position: absolute;
+width: 41.99px;
+height: 0px;
+left: 1364.06px;
+top: 109.99px;
+
+border: 15px solid #E0C9AD;
+
+
+/* Line 6 */
+
+position: absolute;
+width: 41.99px;
+height: 0px;
+left: 1378.34px;
+top: 82.7px;
+
+border: 15px solid #E0C9AD;
+transform: rotate(90deg);
+
+}
+
+.snapshot{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.stuff{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.history{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#jurnl-history{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+}
+/* SLIDER */
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      /* width: 80px; */
+      -webkit-appearance: none;
+    }
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      /* height: 10px; */
+      margin-top: -1px;
+      background: linear-gradient(0.25turn, #d88c9a, #f2d0a9, #99c1b9);
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 10px;
+      -webkit-appearance: none;
+      height: 10px;
+      cursor: ew-resize;
+      background: #8e7dbe;
+    }
+
+}
+
+.newButton {
+    position: relative;
+    transform: scale(0.75);
+    top:0px;
+    right:35px;
+}
+
+.newButton svg {
+    position: absolute;
+    top: 0;
+    right:0;
+    z-index: 10;
+}
+
+#new-button {
+    right: -4px;
+    z-index: 11;
+}
+#paper{
+    position: absolute;
+    transition: all 0.2s;
+}
+
+#new-button:hover + #paper {
+    animation: paperOpen 0.5s forwards;
+}
+#new-button:not(:hover) + #paper {
+    animation: paperClose 0.5s forwards;
+}
+@keyframes paperOpen {
+    from {
+      transform: translateY(0%);
+    }
+  
+    to {
+      transform: translate(40%, -40%) rotate(20deg);
+
+    }
+  }
+
+  @keyframes paperClose {
+    from {
+        transform: translate(40%, -40%) rotate(20deg);
+    }
+  
+    to {
+        transform: translateY(0%);
+    }
+  }
+
+  
+
+  #logout-btn{
+    transform: scale(.75);
+  }
+
+
+  #history-btn{
+    transform: scale(0.70);
+  }
+
+  #water{
+    font-size: 16px;
+    outline:none;
+    border-radius: 10px;
+    border:none;
+    padding: 4px;
+    margin-bottom: 3px;
+}
+  
+.snapshot{
+    background-color: #D9D9D9;
+    width: 80%;
+    height: 60%;
+    position: relative center;
+    margin-left:200px;
+    margin-right:100px;
+    border-radius: 15px;
+    padding: 10px;
+    display: grid;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logogo{
+    transform: translate(-60px,0px);
+}
+
+.row2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+#fire{
+    transform:scale(0.6);
+}
+.streak{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ban{
+    justify-content: space-between;
+    width: 100%;
+}
+
+#modules{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items:center;
+}
+
+#jurnl-icon{
+    transform: scale(0.75);
+}
+
+#water-icon{
+    transform: scale(0.75);
+}
+.jurnls{
+    justify-content: center;
+    padding: 5%
+}
+.streak{
+    justify-content: center;
+    padding: 5%
+}
+.water{
+    justify-content: center;
+    padding: 5%
+}
+
+.month-bar{
+    justify-content: center;
+    align-items: center;
+}
+.months{
+    background-color: #94725B;
+    font-weight:700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5%;
+    margin: 0.5%;
+
+}
+.months:hover{
+    background-color: #99c1b9;
+    cursor: pointer;
+}
