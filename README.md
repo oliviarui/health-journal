@@ -1,5 +1,1 @@
-# CSE330
-Elle Su 498173 @ellesu
-Olivia Rui 489878 @oliviarui
-
- 
+This is a health journal app made using the MERN stack. It runs locally on the user's computer and can keep track of a user's water intake, mood, and journal entries. The data is stored in a MongoDB Atlas cloud database. This project was a group project and I was mostly responsible for the backend code, however I did also build out a basic React.js frontend page with simple React components to test that the frontend and backend were communicating successfully. My partner was responsible for most of the styling and routing on the frontend.
